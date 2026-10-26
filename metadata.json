@@ -1,0 +1,8 @@
+{
+  "name": "Recall — סוכן חכם להכנה לפגישות",
+  "description": "סוכן בינה מלאכותית מבוסס ראיות להכנה לפגישות, סנכרון התחייבויות, זיהוי סתירות וביסוס החלטות.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,112 @@
+[
+  {
+    "id": "a-001",
+    "description": "הכנת דוח השוואת ביצועי שאילתות ואינדקסים עם המלצות אופטימיזציה לגרסה 2.0",
+    "ownerId": "p-003",
+    "meetingId": "m-003",
+    "dueAt": "2026-10-15T23:59:59+03:00",
+    "originalDueText": "עד ה-15 באוקטובר 2026",
+    "status": "overdue",
+    "evidenceRefs": ["transcript:tr-003:seg-002"],
+    "lastVerifiedAt": "2026-10-19T10:00:00+03:00"
+  },
+  {
+    "id": "a-002",
+    "description": "מימוש שכבת האינטגרציה לחיבור ה-API של שירותי הענן",
+    "ownerId": "p-005",
+    "meetingId": "m-005",
+    "dueAt": null,
+    "originalDueText": "בתחילת השבוע הבא",
+    "status": "open",
+    "evidenceRefs": ["transcript:tr-005:seg-003"],
+    "lastVerifiedAt": "2026-09-23T09:00:00+03:00"
+  },
+  {
+    "id": "a-003",
+    "description": "יישום מנגנון רוטציה אוטומטי של מפתחות API ב-CI/CD כל 90 יום",
+    "ownerId": "p-004",
+    "meetingId": "m-002",
+    "dueAt": "2026-11-15T18:00:00+03:00",
+    "originalDueText": "תוך 60 יום ממועד ההחלטה",
+    "status": "open",
+    "evidenceRefs": ["transcript:tr-002:seg-003"],
+    "lastVerifiedAt": "2026-10-20T11:00:00+03:00"
+  },
+  {
+    "id": "a-004",
+    "description": "הגדרת בריכת חיבורים (Connection Pooling) עם PgBouncer ל-PostgreSQL",
+    "ownerId": "p-003",
+    "meetingId": "m-001",
+    "dueAt": "2026-09-25T18:00:00+03:00",
+    "originalDueText": "עד סוף ספטמבר 2026",
+    "status": "completed",
+    "evidenceRefs": ["transcript:tr-001:seg-002"],
+    "lastVerifiedAt": "2026-09-26T14:00:00+03:00"
+  },
+  {
+    "id": "a-005",
+    "description": "בניית סקריפטי מיגרציה ראשוניים למבנה טבלאות המשתמשים",
+    "ownerId": "p-005",
+    "meetingId": "m-001",
+    "dueAt": "2026-09-30T18:00:00+03:00",
+    "originalDueText": "עד סוף החודש",
+    "status": "completed",
+    "evidenceRefs": ["transcript:tr-001:seg-003"],
+    "lastVerifiedAt": "2026-10-01T10:00:00+03:00"
+  },
+  {
+    "id": "a-006",
+    "description": "סגירת אפיון מסכי לוח השנה ומנגנון הצגת תדריכים",
+    "ownerId": "p-002",
+    "meetingId": "m-006",
+    "dueAt": "2026-10-20T18:00:00+03:00",
+    "originalDueText": "עד 20 באוקטובר 2026",
+    "status": "completed",
+    "evidenceRefs": ["transcript:tr-006:seg-001"],
+    "lastVerifiedAt": "2026-10-21T09:00:00+03:00"
+  },
+  {
+    "id": "a-007",
+    "description": "בדיקת זמני התעוררות (Cold Start) בפריסה ב-GCP Cloud Run",
+    "ownerId": "p-003",
+    "meetingId": "m-005",
+    "dueAt": "2026-10-31T18:00:00+03:00",
+    "originalDueText": "עד סוף חודש אוקטובר",
+    "status": "blocked",
+    "evidenceRefs": ["transcript:tr-005:seg-001"],
+    "lastVerifiedAt": "2026-10-24T12:00:00+03:00"
+  },
+  {
+    "id": "a-008",
+    "description": "עריכת מבדק חדירות עצמאי לרכיבי ההזדהות והרשאות הגישה",
+    "ownerId": "p-004",
+    "meetingId": "m-002",
+    "dueAt": "2026-11-20T18:00:00+03:00",
+    "originalDueText": "עד אמצע נובמבר 2026",
+    "status": "open",
+    "evidenceRefs": ["transcript:tr-002:seg-001"],
+    "lastVerifiedAt": "2026-10-22T16:00:00+03:00"
+  },
+  {
+    "id": "a-009",
+    "description": "תיאום תקציב חומרה ותשתיות מול מחלקת כספים לרבעון 4",
+    "ownerId": "p-001",
+    "meetingId": "m-007",
+    "dueAt": "2026-10-25T18:00:00+03:00",
+    "originalDueText": "עד סוף השבוע הבא",
+    "status": "unverified",
+    "evidenceRefs": ["transcript:tr-007:seg-001"],
+    "lastVerifiedAt": "2026-10-20T10:00:00+03:00"
+  },
+  {
+    "id": "a-010",
+    "description": "העברת מפרט דרישות אינטגרציה ראשוני של שירותי איפקס",
+    "ownerId": "p-006",
+    "meetingId": "m-104",
+    "dueAt": "2026-11-10T18:00:00+03:00",
+    "originalDueText": "תוך 10 ימים משיחת ההיכרות",
+    "status": "open",
+    "evidenceRefs": ["meeting:m-104"],
+    "lastVerifiedAt": "2026-10-26T12:00:00+03:00"
+  }
+]

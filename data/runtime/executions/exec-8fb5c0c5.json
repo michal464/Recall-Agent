@@ -1,0 +1,57 @@
+{
+  "id": "exec-8fb5c0c5",
+  "meetingId": "non-existent-meeting-id",
+  "goal": "Prepare an accurate, concise, evidence-backed briefing for the selected meeting by investigating relevant historical meetings, transcript excerpts, recorded decisions, and outstanding commitments.",
+  "status": "completed",
+  "startedAt": "2026-10-26T23:11:06.946999",
+  "finishedAt": "2026-10-26T23:11:06.947678",
+  "stepCount": 1,
+  "toolCallCount": 2,
+  "stoppingReason": "insufficient_evidence",
+  "agentMode": "gemini",
+  "events": [
+    {
+      "timestamp": "2026-10-26T23:11:06.947396",
+      "round": 1,
+      "tool": "get_meeting_details",
+      "rationale": "קריאת נתוני הפגישה הנבחרת: נושא, שעה, משתתפים ותיאור התחלתי",
+      "arguments": {
+        "meeting_id": "non-existent-meeting-id"
+      },
+      "result_summary": "{'error': 'פגישה עם מזהה non-existent-meeting-id לא נמצאה'}",
+      "evidence_gathered_count": 0
+    },
+    {
+      "timestamp": "2026-10-26T23:11:06.947672",
+      "round": 1,
+      "tool": "save_briefing",
+      "rationale": "שמירת התדריך המובנה הסופי במאגר הנתונים של זמן הריצה",
+      "arguments": {
+        "meeting_id": "non-existent-meeting-id",
+        "briefing_data": {
+          "id": "b-non-existent-meeting-id",
+          "meetingId": "non-existent-meeting-id",
+          "createdAt": "2026-10-26T23:11:06.947409",
+          "agentMode": "gemini",
+          "summary": "תדריך הכנה עבור 'פגישה'. לא אותרה היסטוריה קודמת עבור משתתפי הפגישה.",
+          "verifiedFacts": [],
+          "inferences": [],
+          "openCommitments": [],
+          "previousDecisions": [],
+          "conflicts": [],
+          "suggestedQuestions": [
+            "האם חלו שינויים מאז הסנכרון הקודם המצריכים עדכון תוכנית העבודה?"
+          ],
+          "unverifiedGaps": [
+            "לא ניתן לטעון את הפגישה non-existent-meeting-id"
+          ],
+          "verificationOutcome": "no_history",
+          "executionId": "exec-8fb5c0c5",
+          "stoppingReason": "insufficient_evidence"
+        }
+      },
+      "result_summary": "סטטוס אימות: saved - ",
+      "evidence_gathered_count": 0
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "p-001",
+    "name": "יונתן לוי",
+    "role": "סמנכ\"ל טכנולוגיות (CTO)",
+    "organization": "נובה מערכות"
+  },
+  {
+    "id": "p-002",
+    "name": "דנה כהן",
+    "role": "מנהלת מוצר ראשית (VP Product)",
+    "organization": "נובה מערכות"
+  },
+  {
+    "id": "p-003",
+    "name": "אורן ברקוביץ'",
+    "role": "מוביל צוות תשתית (Infra Lead)",
+    "organization": "נובה מערכות"
+  },
+  {
+    "id": "p-004",
+    "name": "רונית שמיר",
+    "role": "ארכיטקטית אבטחת מידע (Security Architect)",
+    "organization": "נובה מערכות"
+  },
+  {
+    "id": "p-005",
+    "name": "אלון גל",
+    "role": "מוביל פיתוח Backend (Backend Lead)",
+    "organization": "נובה מערכות"
+  },
+  {
+    "id": "p-006",
+    "name": "שירה אטיאס",
+    "role": "מנהלת לקוחות אסטרטגיים (Customer Success)",
+    "organization": "איפקס פתרונות ענן"
+  }
+]

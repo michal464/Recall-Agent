@@ -1,0 +1,21 @@
+{
+  "id": "b-m-104",
+  "meetingId": "m-104",
+  "createdAt": "2026-10-26T23:11:06.965470",
+  "agentMode": "deterministic_fallback",
+  "summary": "תדריך הכנה עבור 'פגישת היכרות ראשונה - איפקס פתרונות ענן'. לא אותרה היסטוריה קודמת עבור משתתפי הפגישה.",
+  "verifiedFacts": [],
+  "inferences": [],
+  "openCommitments": [],
+  "previousDecisions": [],
+  "conflicts": [],
+  "suggestedQuestions": [
+    "האם חלו שינויים מאז הסנכרון הקודם המצריכים עדכון תוכנית העבודה?"
+  ],
+  "unverifiedGaps": [
+    "לא נמצאו פגישות היסטוריות קודמות עם משתתפים אלו במערכת"
+  ],
+  "verificationOutcome": "no_history",
+  "executionId": "exec-c9c7681f",
+  "stoppingReason": "no_history_found"
+}

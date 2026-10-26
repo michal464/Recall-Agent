@@ -1,0 +1,209 @@
+{
+  "id": "b-m-108",
+  "meetingId": "m-108",
+  "createdAt": "2026-10-26T23:11:06.984781",
+  "agentMode": "deterministic_fallback",
+  "summary": "תדריך הכנה עבור 'תחקיר אירוע אבטחה ואימות קלט לא מורשה'. נבחנו 2 פגישות קודמות, 4 מקטעי תמליל ו-8 החלטות.",
+  "verifiedFacts": [
+    {
+      "fact": "התקבלה החלטה בנושא בחירת מסד נתונים ראשי: אישור רשמי של מעבר ל-PostgreSQL בגרסה 16 כמסד הנתונים היחסי הראשי לכל שירותי הליבה.",
+      "status": "supported",
+      "evidenceRefs": [
+        "transcript:tr-001:seg-004",
+        "decision:d-001"
+      ]
+    },
+    {
+      "fact": "התקבלה החלטה בנושא תשתית פריסת ענן: בחירה ב-AWS ECS עם Fargate כתשתית הפריסה הראשית עבור מערכות הענן.",
+      "status": "supported",
+      "evidenceRefs": [
+        "transcript:tr-004:seg-002",
+        "decision:d-002"
+      ]
+    }
+  ],
+  "inferences": [
+    {
+      "inference": "הצוות מתמקד בשיפור ביצועים וחיסכון בעלויות לקראת גרסה 2.0",
+      "basedOnRefs": [
+        "decision:d-001",
+        "decision:d-002"
+      ]
+    }
+  ],
+  "openCommitments": [
+    {
+      "id": "a-009",
+      "description": "תיאום תקציב חומרה ותשתיות מול מחלקת כספים לרבעון 4",
+      "ownerName": "יונתן לוי",
+      "status": "unverified",
+      "dueAt": "2026-10-25T18:00:00+03:00",
+      "originalDueText": "עד סוף השבוע הבא",
+      "evidenceRefs": [
+        "transcript:tr-007:seg-001"
+      ],
+      "isOverdue": false
+    },
+    {
+      "id": "a-003",
+      "description": "יישום מנגנון רוטציה אוטומטי של מפתחות API ב-CI/CD כל 90 יום",
+      "ownerName": "רונית שמיר",
+      "status": "open",
+      "dueAt": "2026-11-15T18:00:00+03:00",
+      "originalDueText": "תוך 60 יום ממועד ההחלטה",
+      "evidenceRefs": [
+        "transcript:tr-002:seg-003"
+      ],
+      "isOverdue": false
+    },
+    {
+      "id": "a-008",
+      "description": "עריכת מבדק חדירות עצמאי לרכיבי ההזדהות והרשאות הגישה",
+      "ownerName": "רונית שמיר",
+      "status": "open",
+      "dueAt": "2026-11-20T18:00:00+03:00",
+      "originalDueText": "עד אמצע נובמבר 2026",
+      "evidenceRefs": [
+        "transcript:tr-002:seg-001"
+      ],
+      "isOverdue": false
+    },
+    {
+      "id": "a-002",
+      "description": "מימוש שכבת האינטגרציה לחיבור ה-API של שירותי הענן",
+      "ownerName": "אלון גל",
+      "status": "open",
+      "dueAt": null,
+      "originalDueText": "בתחילת השבוע הבא",
+      "evidenceRefs": [
+        "transcript:tr-005:seg-003"
+      ],
+      "isOverdue": false
+    },
+    {
+      "id": "a-005",
+      "description": "בניית סקריפטי מיגרציה ראשוניים למבנה טבלאות המשתמשים",
+      "ownerName": "אלון גל",
+      "status": "completed",
+      "dueAt": "2026-09-30T18:00:00+03:00",
+      "originalDueText": "עד סוף החודש",
+      "evidenceRefs": [
+        "transcript:tr-001:seg-003"
+      ],
+      "isOverdue": false
+    }
+  ],
+  "previousDecisions": [
+    {
+      "id": "d-001",
+      "topic": "בחירת מסד נתונים ראשי",
+      "description": "אישור רשמי של מעבר ל-PostgreSQL בגרסה 16 כמסד הנתונים היחסי הראשי לכל שירותי הליבה.",
+      "status": "approved",
+      "evidenceRefs": [
+        "transcript:tr-001:seg-004"
+      ],
+      "createdAt": "2026-09-10T10:45:00+03:00"
+    },
+    {
+      "id": "d-002",
+      "topic": "תשתית פריסת ענן",
+      "description": "בחירה ב-AWS ECS עם Fargate כתשתית הפריסה הראשית עבור מערכות הענן.",
+      "status": "approved",
+      "evidenceRefs": [
+        "transcript:tr-004:seg-002"
+      ],
+      "createdAt": "2026-08-12T13:45:00+03:00"
+    },
+    {
+      "id": "d-003",
+      "topic": "תשתית פריסת ענן",
+      "description": "שינוי כיוון אסטרטגי ובחירה ב-GCP Cloud Run כספק הענן והפריסה הראשי לחיסכון של 35% בעלויות.",
+      "status": "approved",
+      "evidenceRefs": [
+        "transcript:tr-005:seg-002"
+      ],
+      "createdAt": "2026-09-22T10:20:00+03:00"
+    },
+    {
+      "id": "d-004",
+      "topic": "מדיניות אבטחת מפתחות API",
+      "description": "חובת רוטציה אוטומטית של כל מפתחות ה-API והסודות כל 90 יום והצפנה במנוחה בתקן AES-256.",
+      "status": "approved",
+      "evidenceRefs": [
+        "transcript:tr-002:seg-003",
+        "transcript:tr-002:seg-004"
+      ],
+      "createdAt": "2026-05-15T14:40:00+03:00"
+    },
+    {
+      "id": "d-005",
+      "topic": "ביקורת אבטחה וציות לתקנים",
+      "description": "ביצוע סקר סיכונים חצי-שנתי ועמידה בבקרות תקני ISO 27001 ו-SOC2 כתנאי לחיבור לקוחות אנטרפרייז.",
+      "status": "approved",
+      "evidenceRefs": [
+        "transcript:tr-002:seg-001"
+      ],
+      "createdAt": "2026-05-15T14:50:00+03:00"
+    },
+    {
+      "id": "d-006",
+      "topic": "ארכיטקטורת ממשק לוח שנה",
+      "description": "תמיכה בתצוגה חודשית ושבועית מלאה ב-RTL עם חיווי סטטוס תדריכים ומהירות תגובה תת-שנייתית.",
+      "status": "approved",
+      "evidenceRefs": [
+        "transcript:tr-006:seg-001"
+      ],
+      "createdAt": "2026-10-12T15:40:00+03:00"
+    },
+    {
+      "id": "d-007",
+      "topic": "אימות התחייבויות ומקורות",
+      "description": "הנחיה גורפת כי שום משימה או טענה עובדתית לא תסומן כמאומתת ללא קישור לאסמכתא מקורית מתועדת.",
+      "status": "approved",
+      "evidenceRefs": [
+        "transcript:tr-007:seg-001"
+      ],
+      "createdAt": "2026-10-19T11:15:00+03:00"
+    },
+    {
+      "id": "d-008",
+      "topic": "הגנה מפני הזרקת פקודות בטקסט לא מורשה",
+      "description": "פסילת הוראות מערכת המגיעות מתמלילים חיצוניים ואיסור שינוי סטטוס משימות ללא ביקורת מוסמכת.",
+      "status": "enforced",
+      "evidenceRefs": [
+        "transcript:tr-010:seg-004"
+      ],
+      "createdAt": "2026-11-05T11:45:00+03:00"
+    }
+  ],
+  "conflicts": [
+    {
+      "topic": "תשתית פריסת ענן",
+      "decisionA": {
+        "id": "d-002",
+        "description": "בחירה ב-AWS ECS עם Fargate כתשתית הפריסה הראשית עבור מערכות הענן.",
+        "evidenceRefs": [
+          "transcript:tr-004:seg-002"
+        ],
+        "createdAt": "2026-08-12T13:45:00+03:00"
+      },
+      "decisionB": {
+        "id": "d-003",
+        "description": "שינוי כיוון אסטרטגי ובחירה ב-GCP Cloud Run כספק הענן והפריסה הראשי לחיסכון של 35% בעלויות.",
+        "evidenceRefs": [
+          "transcript:tr-005:seg-002"
+        ],
+        "createdAt": "2026-09-22T10:20:00+03:00"
+      },
+      "status": "סתירה דורשת הכרעה"
+    }
+  ],
+  "suggestedQuestions": [
+    "נדרשת הכרעה סופית בין החלטות סותרות בנושא תשתית פריסת ענן (בחירה בין AWS ECS לבין GCP Cloud Run).",
+    "הגדרת תאריך יעד מדויק למשימה שנוסחה כ-'בתחילת השבוע הבא': מימוש שכבת האינטגרציה לחיבור ה-API של שירותי הענן."
+  ],
+  "unverifiedGaps": [],
+  "verificationOutcome": "verified",
+  "executionId": "exec-465a85bd",
+  "stoppingReason": "goal_achieved"
+}
